@@ -166,9 +166,9 @@ input[type="range"] {
     }
   }
 
-  @media only screen and (max-width: 720px) and (max-height: 1280px) {
-    .item{
-        width: 57vh; 
+  @media (max-width: 720px) and (max-height: 1280px) {
+    .item {
+        width: 50vh; /*not working/*
         height: 14vh;
     }
 }
@@ -215,6 +215,7 @@ input[type="range"] {
         width: 37vh;
         height: 15vh;
         margin: 3vh;
+        /* background-color: aqua; */
     }
     
 }
